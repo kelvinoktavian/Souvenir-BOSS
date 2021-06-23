@@ -1,0 +1,40 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card.product-gallery {
+  transition: 0.3s;
+}
+
+.card.product-gallery:hover {
+  transform: scale(1.05);
+}
+
+.content {
+  height: 2000px;
+}
+
+.btn-whatsapp {
+  color: #fff;
+  background-color: #25d366;
+}
+
+/* media query */
